@@ -10,7 +10,7 @@ pause(1)
 run(strcat(regexprep(pwd,'system','version_info.m')));
 
 disp('Verifying Permissions...')
-load('temp_user.mat')
+load('temp_user.mat','user')
 source_dir = pwd;
 d = dir([source_dir, '\*.m']);
 funcs = cell(length(d),1);
