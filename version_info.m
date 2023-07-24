@@ -2,7 +2,7 @@ function version_info
 
 %%% Displays info related to current version
 
-version.typ = ' develop';
+version.typ = ' Release';
 version.ind = ' V ';
 version.maj = '1';
 version.min = '0';
