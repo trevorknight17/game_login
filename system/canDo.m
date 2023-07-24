@@ -1,22 +1,15 @@
-%function canDo
+function canDo
 
-w = what;
-mfiles = w.m;
+clc
 
-load('temp_user.mat');
+load('temp_user.mat','user');
 
 [~, ~, allowed] = xlsread(strcat(pwd,'\permissions\',user,'_perms.xls'));
 
-% for i = 1:length(mfiles)
-%     for j = 1:length(notallowed)
-%         if strcmp(mfile{i},allowedd{j})
-%             
-%         end
-%     end
-% end
-
-for i = 1:length(mfiles)
-    mfiles{i} = mfiles{i}(1:end-2);
+for i = 1:length(allowed)
+    allowed{i} = allowed{i}(1:end-2);    
 end
 
-%end
+disp(allowed)
+
+end

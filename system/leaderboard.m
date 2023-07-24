@@ -12,6 +12,4 @@ else
     disp(alldata(5,:))
 end
 
-pause(3)
-
 end

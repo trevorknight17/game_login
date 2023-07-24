@@ -14,4 +14,7 @@ wasOnTop = jFrame_fHGxClient.getWindow.isAlwaysOnTop;
 if ~isempty(isOnTop)
     jFrame_fHGxClient.getWindow.setAlwaysOnTop(isOnTop);
 end
+
+warn = lastwarn; %#ok<NASGU>
+
 end

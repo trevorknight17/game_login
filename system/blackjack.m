@@ -22,7 +22,6 @@ while play == 1
             dealertotal = sumcards(dealercards);
             usercards = [deck{3},deck{4}];
             displaycards(usercards,'northeast','Your cards',2)
-            disp('Your total:')
             usertotal = sumcards(usercards);
             if usertotal == 21
                 disp('You Win!')

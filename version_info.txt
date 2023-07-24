@@ -1,2 +1,2 @@
-Current Version: develop V1.0.0
-21-Jul-2023 13:00:35 -0400
+Current Version: Release V1.0.1
+23-Jul-2023 21:33:06 -0400
